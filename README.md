@@ -1,5 +1,12 @@
 # HA Person Detection Card
 
+## Neutral mobile preview
+
+![Neutral mobile preview of ha-person-detection-card](docs/preview.png)
+
+> Rendered at 390 px mobile width with fictional Home Assistant entities and values. No private dashboard, person, address, camera, or sensor data is included.
+
+
 "Protect Personvagt" — 14 dages personhistorik med billeder fra UniFi Protect. Samme opbygning som [ha-license-plate-card](https://github.com/MRDonnii/ha-license-plate-card), men til persondetektion fra udendørskameraer i stedet for nummerplader: stor visning af seneste hændelse plus en filtrerbar liste over de sidste 10 (alle / ukendte / kendte personer).
 
 Kortet er en ren visning oven på en sensor med et `events`-attribut — ingen direkte kald til UniFi Protect ud over det snapshot-billede sensoren selv leverer.
